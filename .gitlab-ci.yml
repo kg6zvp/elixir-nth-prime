@@ -1,0 +1,9 @@
+image: 'elixir:alpine'
+
+stages:
+  - test
+
+test:
+  stage: test
+  script:
+    - mix test
